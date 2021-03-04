@@ -1,0 +1,16 @@
+username: admin
+password: 1234QWer
+app_name: Aardvark
+vars:
+tenant: Aardvark​
+vrf: AardvarkVRF
+vrf_description: VRF Created Using Ansible
+bd: AardvarkBD
+bd_description: Bridge Domain Created Using Ansible
+bd_subnets:
+  - bd: AardvarkBD​
+    ip: 10.255.255.1
+    bd_gateway: 10.255.255.254​
+    bd_mask: 24​
+    bd_scope: public​
+bd_subnet_description: Subnet Created Using Ansible
